@@ -119,7 +119,7 @@ alias dataware-tunnel='lt -l thedataware.dev -s thedataware -p 80'
 alias x='exit'
 
 
-. /home/blackecho/torch/install/bin/torch-activate
+. ~/torch/install/bin/torch-activate
 
 
-. /home/blackecho/torch/install/bin/torch-activate
+. ~/torch/install/bin/torch-activate
