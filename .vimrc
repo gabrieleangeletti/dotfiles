@@ -32,7 +32,7 @@ Plugin 'tmhedberg/SimpylFold'
 Plugin 'nvie/vim-flake8'
 " Python indent
 Plugin 'vim-scripts/indentpython.vim'
-" Blade templates
+" PHP
 Plugin 'jwalton512/vim-blade'
 " syntax highlighting and improved indentation for javascript
 Plugin 'pangloss/vim-javascript'
@@ -105,6 +105,13 @@ au BufNewFile,BufRead *.js, *.html, *.css
   \ set tabstop=2 |
   \ set softtabstop=2 |
   \ set shiftwidth=2 |
+
+" PHP indentation
+au BufNewFile,BufRead *.php
+  \ set tabstop=4 |
+  \ set softtabstop=4 |
+  \ set shiftwidth=4 |
+  \ set expandtab |
 
 " LaTeX indentation
 au BufNewFile,BufRead *.tex
