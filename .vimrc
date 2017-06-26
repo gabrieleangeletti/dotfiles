@@ -113,6 +113,13 @@ au BufNewFile,BufRead *.php
   \ set shiftwidth=4 |
   \ set expandtab |
 
+" JSON indentation
+au BufNewFile,BufRead *.json
+  \ set tabstop=2 |
+  \ set softtabstop=2 |
+  \ set shiftwidth=4 |
+  \ set expandtab |
+
 " LaTeX indentation
 au BufNewFile,BufRead *.tex
   \ set tabstop=4 |

@@ -119,5 +119,7 @@ alias dataware-tunnel='lt -l thedataware.dev -s thedataware -p 80'
 
 alias x='exit'
 
-# Torch
-. ~/torch/install/bin/torch-activate
+# Netkit
+export NETKIT_HOME=/home/blackecho/netkit
+export PATH=$PATH:$NETKIT_HOME/bin
+export MANPATH=$MANPATH:$NETKIT_HOME/man

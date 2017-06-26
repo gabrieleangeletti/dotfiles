@@ -17,3 +17,6 @@ ln -s dotfiles/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ~/.zsh-syntax
 # vim
 ln -s ./dotfiles/.vim .vim
 ln -s ./dotfiles/.vimrc .vimrc
+
+# Install vim plugins with vundle
+vim -c ':PluginInstall' -c 'qa!'
