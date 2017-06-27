@@ -127,6 +127,13 @@ au BufNewFile,BufRead *.tex
   \ set shiftwidth=4 |
   \ set expandtab |
 
+" Lua indentation
+au BufNewFile,BufRead *.lua
+  \ set tabstop=4 |
+  \ set softtabstop=4 |
+  \ set shiftwidth=4 |
+  \ set expandtab |
+
 " Extraneous whitespaces (this gives E20: mark not set)
 "highlight BadWhiteSpace ctermbg=red guibg=darkred
 "au BufRead,BufNewFile *.py, *.pyw, *.c, *.h match BadWhiteSpace /\s\+$/
