@@ -32,6 +32,8 @@ Plugin 'tmhedberg/SimpylFold'
 Plugin 'nvie/vim-flake8'
 " Python indent
 Plugin 'vim-scripts/indentpython.vim'
+" Go
+Plugin 'fatih/vim-go'
 " PHP
 Plugin 'jwalton512/vim-blade'
 " syntax highlighting and improved indentation for javascript
@@ -99,6 +101,13 @@ au BufNewFile,BufRead *.py
   \ set expandtab |
   \ set autoindent |
   \ set fileformat=unix |
+
+" Go indentation
+au BufNewFile,BufRead *.go
+  \ set tabstop=4 |
+  \ set shiftwidth=4 |
+  \ set softtabstop=0 |
+  \ set noexpandtab |
 
 " Js, html, css indentation
 au BufNewFile,BufRead *.js, *.html, *.css
